@@ -1,0 +1,133 @@
+<resources>
+
+
+
+    <string name="app_name">Cam Chat</string>
+    <string name="sex">الجنس :</string>
+    <string name="yourage">عمرك :</string>
+    <string name="country">دولتك :</string>
+    <string name="home">الرئيسية</string>
+    <string name="rating_app">تقييم التطبيق</string>
+    <string name="share_app">نشر التطبيق</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="messaging">الرسائل</string>
+    <string name="match">مطابقة</string>
+    <string name="your_number_phone">رقم الهاتف :</string>
+    <string name="your_number_phone_home">رقم الهاتف :</string>
+    <string name="cancel">الغاء</string>
+    <string name="ok">حسنا</string>
+    <string name="per_dene">تم الغاء طلب الوصول</string>
+    <string name="perm_grat">تم طلب الوصول بنجاح</string>
+    <string name="youneed">تحتاج الى سماح بالاذن للوصول الى الصور</string>
+    <string name="accept_permission">رجاء قبول  طلب</string>
+    <string name="select_galory">اختر المعرض</string>
+    <string name="imagseccess">تم تحميل الصورة بنجاح</string>
+    <string name="chat_title">الدردشة</string>
+    <string name="last_msg">اخر الرسالة</string>
+    <string name="rate_dialog_title">تقييم تطبيق</string>
+    <string name="rate_dialog_message">إذا كنت تستمتع  بهذا التطبيق ، فهل تمانع في تقييمه ؟ لن يستغرق أكثر من دقيقة. شكرا لدعمك!</string>
+    <string name="rate_dialog_ok">تقييم الان</string>
+    <string name="rate_dialog_cancel">لاحقا</string>
+    <string name="rate_dialog_no">لا شكرا</string>
+    <string name="username">اسمك</string>
+    <string name="Authentication_seccess">تم بنجاح</string>
+    <string name="start">Start</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="choose_app_share">اختر التطبيق :</string>
+    <string name="share_app_friend">اريد ان اشاركك هذا التطبيق :</string>
+    <string name="your_age">عمرك</string>
+    <string name="male">الرجل</string>
+    <string name="female">امرأة</string>
+    <string name="your_country">بلدك :</string>
+    <string name="ynf">هاتف</string>
+    <string name="Authentication_failed">لم يتم بنجاح التسجيل</string>
+    <string name="writeusername">اكتب اسمك</string>
+    <string name="badconnection">جودة الانترنت لديك ضعيفة</string>
+    <string name="exemple_625333522">مثال : 625333522</string>
+    <string name="phone">رقم هاتف :</string>
+    <string name="login">تسجيل</string>
+    <string name="write_a_message">ارسل الرسالة</string>
+    <string name="call_video">اتصل بالفديو</string>
+    <string name="hello_howarey">مرحبا</string>
+    <string name="iovey">احبك</string>
+    <string name="iwiilcaly">سأتصل بك</string>
+    <string name="start_video_chat">ابدأ الاتصال بالفيديو</string>
+    <string name="loggin_in_call">تسجيل ب</string>
+    <string name="please_wait_connect">ارجوك انتظر&#8230;</string>
+    <string name="please_enter_username_logincalling">ادخل اسم المتلقي المكالمة</string>
+    <string name="stop_service_video_chat">الغاء</string>
+    <string name="logged_in_as">تسجيل ب:</string>
+    <string name="recipient_name">المتلقي</string>
+    <string name="voice_call">صوت</string>
+    <string name="calling">رنين&#8230;</string>
+    <string name="call_ended">انتهاء المكالمة.</string>
+    <string name="connected">متصل الان.</string>
+    <string name="ringing">رنين&#8230;</string>
+    <string name="incoming_video_call">لديك مكالمة واردة الان</string>
+    <string name="i_love_you">احبك</string>
+
+    <string name="laws">\nقوانين التطبيق :
+\n* يمنع عرض الصور اباحية و الصور لا اخلاقية
+\n* التطبيق ليس لطلب بما يسمى ب زواج المؤقت أو شات تعب قلبي
+\n* يمنع تبادل ارقام الهواتف أو روابط خارجية.
+\n* يمنع طلب المحادثة خارج التطبيق.
+\n* يمنع سب أو شتم في المحادثة
+\n* التطبيق ليس لطلب زواج المتعة أو زواج عرفي
+* صور غير لائقة.n\
+* المستخدم تحت السن القانونية.n\
+* البريد المزعج.n\
+* لا تستخدم الصور المزيفة.n\
+* لا تستخدم كلمات مسيئة أثناء المحادثات.n\
+قبل الاشتراك ، هل توافق على الشروط والأحكام؟n\
+* لا تستخدم الرموز أو الأرقام في اسم المستخدم.n\
+* لا تقبل المستخدم تحت سن 18.n\
+* هذا العمر غير متوفر. فوق 70.n\
+* يجب أن يكون اسم المستخدم 6 أحرف على الأقل.n\
+* يجب أن تكون كلمة المرور 6 أحرف على الأقل.n\
+* يجب أن لا تكون جميع المشاركات فارغة.n\
+* لا تستخدم اسم مستخدم عشوائي.n\
+* يجب أن تكون جميع المعلومات حقيقية.n\
+    </string>
+
+    <string name="policy_accept">اقرأ و وافق على قوانين التطيبق</string>
+    <string name="need_acceplt">تحتاج الى قراءة و الموافقة على قوانين تطبيق لتتمكن من التسجيل</string>
+    <string name="laws_tv">قوانين</string>
+    <string name="abuse_of_content">إساءة استخدام المحتوى</string>
+    <string name="report_abuse_description">\nانقر فوق "إرسال" إذا:
+\n*  ازعاج.
+\n*  استخدام الصور الإباحية.
+\n*  ارسال الرسائل مسيئة.
+
+    </string>
+    <string name="report_abuse_contnat">ابلاغ عن اساءة المستخدم</string>
+    <string name="send">ارسال</string>
+    <string name="send_succes">تم ارسال بنجاح</string>
+
+    <string name="eror_data">حطأ في البيانات.</string>
+    <string name="underage">انت تحت 18 سنة</string>
+    <string name="plus70">لا يوجد هذا العمر فوق ال 70.</string>
+    <string name="phoneinco">الرقم الهاتف غير صحيح.</string>
+    <string name="usernale_error">اسم يجب ان يكون فوق 6 حروف</string>
+    <string name="pp">الشروط و القوانين</string>
+    <string name="check_username_digi">لا تستعمل الارقام في اسم</string>
+    <string name="check_dymbol_username">لا تستعمل الرموز في اسم</string>
+
+    <string name="you_may_lose_your_account_in_case">You may lose your account in case you upload :</string>
+    <string name="i_promise_i_won_t_upload_anything_from_the_pictures_above">I promise I won\'t upload anything from the pictures above</string>
+
+    <string name="upload_image_pp">
+        X صور غير لائقة.
+        \nX صور عنصرية.
+        \nX صور العرق الديني.
+        \nX صور الأسلحة.
+        \nX الصور الإباحية.
+        \nX صور مثيرة.
+        \nX صور العنف.
+        \nX الصور تحتوي على الدم.
+    </string>
+    <string name="upload">رفع</string>
+    <string name="risk_deletaccount">أنت تخاطر بحذف حسابك</string>
+    <string name="warning">تحذير</string>
+
+</resources>

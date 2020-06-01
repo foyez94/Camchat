@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+        >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="0dip">
+
+        <TextView
+            android:id="@+id/remoteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="username"
+            android:textColor="@color/colorWhite"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/callDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/lybottom"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            />
+
+
+        <TextView
+            android:id="@+id/callState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/callDuration"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="right"
+            android:text="@string/ringing"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            />
+
+        <LinearLayout
+            android:id="@+id/remoteVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/localVideo"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/lybottom"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imgvSpeakerVideo"
+                android:visibility="visible"
+                android:textAllCaps="false"
+                android:src="@drawable/speaker_off"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+
+                />
+
+        <ImageView
+            android:id="@+id/hangupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/hang_up_calllng"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imgvMuteVideo"
+                android:textAllCaps="false"
+
+                android:src="@drawable/nomuted"
+                android:visibility="visible"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--
+    <RelativeLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorBlue">
+
+    </RelativeLayout>
+
+    -->
+
+</LinearLayout>

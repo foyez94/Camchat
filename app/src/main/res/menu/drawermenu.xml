@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ic_home" android:title="@string/home" android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/ic_matching" android:title="@string/match" android:icon="@drawable/ic_match"/>
+    <item android:id="@+id/ic_messaging" android:title="@string/messaging" android:icon="@drawable/ic_messaging" />
+    <item android:id="@+id/ic_rating" android:title="@string/rating_app" android:icon="@drawable/ic_rating"/>
+    <item android:id="@+id/ic_pp" android:title="@string/pp" android:icon="@drawable/ic_pp" />
+    <item android:id="@+id/ic_shareapp" android:title="@string/share_app" android:icon="@drawable/ic_share_app" />
+    <item android:id="@+id/ic_logout" android:title="@string/log_out" android:icon="@drawable/ic_logout" />
+
+</menu>

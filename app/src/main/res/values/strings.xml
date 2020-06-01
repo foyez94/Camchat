@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="banner_ads" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <!--   test ads banner : ca-app-pub-3940256099942544/6300978111-->
+
+    <string name="app_name">Cam Chat</string>
+    <string name="sex">Sex :</string>
+    <string name="yourage">Your age :</string>
+    <string name="country">Country :</string>
+    <string name="home">Home</string>
+    <string name="rating_app">Rating App</string>
+    <string name="share_app">Share App</string>
+    <string name="log_out">Log out</string>
+    <string name="messaging">Messaging</string>
+    <string name="match">Match</string>
+    <string name="your_number_phone">Your number phone :</string>
+    <string name="your_number_phone_home">Your number phone :</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="per_dene">Permission Denied</string>
+    <string name="perm_grat">Permission Granted</string>
+    <string name="youneed">You need to allow access permissions</string>
+    <string name="accept_permission">Please accept permission.</string>
+    <string name="select_galory">Select Gallery</string>
+    <string name="imagseccess">Image upload success</string>
+    <string name="chat_title">Chat</string>
+    <string name="last_msg">Last message</string>
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy playing this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="start">Start</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="choose_app_share">Choose application :</string>
+    <string name="share_app_friend">I invite you to install this application. Link play store :</string>
+    <string name="username">Username</string>
+    <string name="your_age">Your age</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="your_country">Your country :</string>
+    <string name="ynf">Number phone</string>
+    <string name="Authentication_failed">Authentication failed.</string>
+    <string name="writeusername">Write Your Username</string>
+    <string name="badconnection">Your Connection Quality is BAD Try again</string>
+    <string name="exemple_625333522">example : 625333522</string>
+    <string name="Authentication_seccess">Authentication success</string>
+    <string name="phone">Phone :</string>
+    <string name="login">Login</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="call_video">Call Video</string>
+    <string name="hello_howarey">Hello, How are you</string>
+    <string name="iovey">I love you</string>
+    <string name="iwiilcaly">I will call you</string>
+    <string name="start_video_chat">Start Video Chat</string>
+    <string name="loggin_in_call">Logging in</string>
+    <string name="please_wait_connect">Please wait&#8230;</string>
+    <string name="please_enter_username_logincalling">Please enter a user to call</string>
+    <string name="stop_service_video_chat">Stop service video chat</string>
+    <string name="logged_in_as">Logged in as:</string>
+    <string name="recipient_name">Recipient name</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="calling">Calling&#8230;</string>
+    <string name="call_ended">Call ended.</string>
+    <string name="connected">Connected.</string>
+    <string name="ringing">Ringing&#8230;</string>
+    <string name="incoming_video_call">Incoming video call</string>
+    <string name="i_love_you">I love you</string>
+
+
+    <string name="laws">Application Laws: \n\n\n* Prevents exchange of phone numbers or external links. \n* Prevents call request outside application. \n* Prevents insulting or cursing in conversation. \n* Prevents viewing of pornographic images. \n* Application is not for the application of fun marriage or customary marriage. \n* The application is not to request a so-called temporary marriage. \n* Not dirty chat or chat net\n
+    Before Sign Up, Do you agree to Terms and Conditions, Eligibility ?
+\n* Don\'t use symbols or numbers in username.
+\n* Don\'t accept user under 18.
+\n* This age isn\'t available. above 70.
+\n* Username should be at least 6 characters.
+\n* Password should be at least 6 characters.
+\n* All entries should be not empty.
+\n* Don\'t use random username.
+\n* All informations should be real.
+\n* Inappropriate Photos.
+\n* User is Underage.
+\n* Don\'t accept Spam.
+\n* Don\'t use fake photos.
+\n* Don\'t use offensive words during conversations.
+    </string>
+
+    <string name="policy_accept">Read and accept application laws to sign up</string>
+    <string name="need_acceplt">You need to read and accept application laws to sign up</string>
+    <string name="laws_tv">LAWS</string>
+    <string name="abuse_of_content">Abuse of content</string>
+    <string name="report_abuse_contnat">Report abuse of content</string>
+    <string name="report_abuse_description">Click (SEND) if :
+        \n\n* (s)he bother you.
+        \n* (s)he use pornoghraphy images.
+        \n* (s)he send you abusive messages</string>
+    <string name="send">SEND</string>
+    <string name="send_succes">Send Successfully</string>
+    <string name="eror_data">Error in data.</string>
+    <string name="underage">You are under 18.</string>
+    <string name="plus70">this age not available.</string>
+    <string name="phoneinco">Phone incorrect.</string>
+    <string name="usernale_error">username must be greater than 6 characters</string>
+    <string name="pp">Privacy Policy</string>
+    <string name="check_username_digi">Don\'t use numbers in username.</string>
+    <string name="check_dymbol_username">Don\'t use symbols in username.</string>
+
+    <string name="you_may_lose_your_account_in_case">You may lose your account in case you upload :</string>
+    <string name="i_promise_i_won_t_upload_anything_from_the_pictures_above">I promise I won\'t upload anything from the pictures above</string>
+
+    <string name="upload_image_pp">
+        X Inappropriate Photos.
+        \nX Racist Photos.
+        \nX Religious Ethnicity Photos.
+        \nX Weapons Photos.
+        \nX Pornographic photos.
+        \nX Sexy photos.
+        \nX Violence Photos.
+        \nX Images contain blood.
+    </string>
+    <string name="upload">Upload</string>
+    <string name="risk_deletaccount">You risk deleting your account</string>
+    <string name="warning">Warning</string>
+
+</resources>

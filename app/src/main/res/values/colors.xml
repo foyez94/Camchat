@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8854d0</color>
+    <color name="colorPrimaryDark">#8854d0</color>
+    <color name="colorAccent">#8854d0</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlueNights">#353b48</color>
+    <color name="colorSilver">#bdc3c7</color>
+
+
+    <color name="colorBlue">#5faad7</color>
+    <color name="colorGreen">#27ae60</color>
+    <color name="colorGry">#cbc7c7</color>
+    <color name="colorBlueForce">#084c9c</color>
+    <color name="colorBluePure">#34495e</color>
+    <color name="colorBluePlus">#2c3e50</color>
+    <color name="colorRed">#e74c3c</color>
+    <color name="colorBaraRed">#ED4C67</color>
+    <color name="colorRedForce">#c0392b</color>
+    <color name="colorVertbyrry">#B53471</color>
+
+    <color name="colorGryForce">#95a5a6</color>
+    <color name="colorAsbestos">#7f8c8d</color>
+
+    <color name="colorBlueDarker">#1a53ff</color>
+    <color name="colorGryFix">#f3f3f1</color>
+    <color name="colorBluePremiere"> #3366ff</color>
+    <color name="colorBlueTwo">#008cc9</color>
+    <color name="colorBlackOne">#333333</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="color_yellow">#ffff00</color>
+    <color name="colorBlackPure">#000</color>
+    <color name="colorWistiria">#8e44ad</color>
+    <color name="colorAmethyst">#9b59b6</color>
+</resources>

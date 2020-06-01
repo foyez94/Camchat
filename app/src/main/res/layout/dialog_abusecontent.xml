@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/report_abuse_contnat"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorRedForce"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/report_abuse_description"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlackOne"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:id="@+id/btnCancel"
+        android:layout_margin="5dp"
+        android:background="@color/colorBaraRed"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:layout_weight="1"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:id="@+id/btnSentReport"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorGreen"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

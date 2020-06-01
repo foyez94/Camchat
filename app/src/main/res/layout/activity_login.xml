@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.rifcode.camchat.view.LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:gravity="center"
+           android:padding="15dp"
+           >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="@string/username"
+            android:id="@+id/edtUsername"
+            android:maxLength="13"
+            android:lines="1"
+            android:inputType="text"
+            android:background="@drawable/corner"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="@string/your_age"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/edtAge"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:maxLength="2"
+            android:lines="1"
+            android:background="@drawable/corner"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:background="@drawable/corner"
+            >
+
+            <com.rifcode.camchat.utils.robotoregular
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/sex"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                >
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/female"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:id="@+id/rdFemale"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rMen"
+                    android:checked="true"
+                    android:text="@string/male"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <com.rifcode.camchat.utils.robotoregular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_number_phone"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccpphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ccp_countryPreference="us"
+                app:ccp_autoDetectCountry="true"
+                app:ccp_contentColor="@color/colorWhite"
+                />
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/exemple_625333522"
+                android:textColor="@color/colorPrimary"
+                android:inputType="phone"
+                android:background="@drawable/corner"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <com.rifcode.camchat.utils.robotoregular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_country"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccpCountry"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:ccp_showFlag="true"
+            android:layout_marginTop="8dp"
+            app:ccp_showFullName="true"
+            app:ccp_contentColor="@color/colorPrimary"
+            app:ccp_flagBorderColor="@color/colorPrimary"
+            app:ccp_showPhoneCode="false"
+            app:ccp_autoDetectCountry="true"
+            android:background="@drawable/corner"
+            app:ccp_showNameCode="false"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            >
+
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbPolicy"
+                android:text="@string/policy_accept"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:theme="@style/WhiteCheck"
+                android:buttonTint="@color/colorWhite"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:id="@+id/tvlaws"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:text="@string/laws_tv"
+                android:padding="5dp"
+                android:background="@color/colorBlueNights"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogIn"
+            android:textSize="20sp"
+            android:text="@string/login"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:visibility="visible"
+            android:background="@drawable/corner"
+            android:drawablePadding="8dp"
+            android:layout_gravity="center"/>
+
+
+       </LinearLayout>
+    </ScrollView>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/banner_login"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--/>-->
+
+</LinearLayout>
+
